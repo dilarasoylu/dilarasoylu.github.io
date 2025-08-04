@@ -1,3 +1,77 @@
-This is a website. Or is it?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilara Soylu</title>
+  <meta name="description" content="PhD Student">
+  <meta property="og:title" content="Dilara Soylu">
+  <meta property="og:description" content="PhD Student">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f1e3d3;
+      --text-color: #6b3e26;
+      --accent-color: #b35c1e;
+      --link-bg: #f7e5d6;
+      --font-stack: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
-<a href="/assets/reference/mmgrpo_preprint.pdf" target="_blank">Download mmGRPO (PDF) here</a>
+    body {
+      margin: 0;
+      padding: 60px;
+      font-family: var(--font-stack);
+      background: var(--bg-color);
+      color: var(--text-color);
+      text-align: left;
+    }
+
+    main {
+      max-width: 720px;
+      margin: auto;
+      padding: 0 40px;
+    }
+
+    header {
+      font-size: 2.5rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin: 0 0 1em 0;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      background-color: var(--link-bg);
+      padding: 0.1em 0.3em;
+      border-radius: 4px;
+      font-weight: normal;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <p style="font-size: 20px;">Hi there! I'm Dilara, I am an NLP researcher.</p>
+    <p style="margin-bottom: 3em;">
+      <a href="about.html">About</a> &middot;
+      <a href="https://scholar.google.com/citations?user=_NC2jJEAAAAJ&hl=en">Google Scholar</a> &middot;
+      <a href="https://github.com/dilarasoylu">GitHub</a> &middot;
+      <a href="https://twitter.com/dilarafsoylu">Twitter</a>
+    </p>
+
+    <p>I am a second-year Ph.D. student at Stanford University advised by <a href="https://web.stanford.edu/~cgpotts/">Christopher Potts</a>.</p>
+
+    <p>I work on building self-improving compound AI systems. I lead the fine-tuning infrastructure for <a href="https://dspy.ai">DSPy</a>.</p>
+  </main>
+</body>
+</html>
